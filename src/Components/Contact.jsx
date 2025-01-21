@@ -93,7 +93,7 @@ const Contact = () => {
                       Whastapp
                       </h3>
                       <p class="text-gray-600 dark:text-slate-400 2xl:text-md lg:text-xl">
-                     <a href="https://wa.me/8976370407"> 8976370407</a>
+                     <a href="https://wa.me/+918976370407"> 8976370407</a>
                       </p>
                      
                     </div>
