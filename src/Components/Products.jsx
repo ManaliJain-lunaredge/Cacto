@@ -72,7 +72,7 @@ const Products = () => {
                 key={i}
               >
                 <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-cover  bg-center bg-no-repeat flex items-center justify-center rounded-xl opacity-80" style={{ backgroundImage: `url(${item.img})` }} >
-                  <h2 className="capitalize text-3xl text-black bg-slate-100 p-2 rounded-md">{item.name}</h2>
+                  <h2 className="capitalize md:text-3xl text-lg text-black bg-slate-100 p-2 rounded-md">{item.name}</h2>
                 </div>
                 <div class="card__back absolute top-0 bottom-0 right-0 text-xs left-0 p-8 bg-green-900 md:text-sm md:font-normal flex items-center justify-center rounded-xl">
                   <h2>{item.description}</h2>
@@ -89,7 +89,7 @@ const Products = () => {
                 key={i}
               >
                 <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-cover bg-center bg-no-repeat flex items-center justify-center rounded-xl opacity-80"  style={{ backgroundImage: `url(${item.img})` }}>
-                  <h2 className="capitalize text-3xl text-black bg-slate-100 p-2 rounded-md">{item.name}</h2>
+                  <h2 className="capitalize md:text-3xl text-lg text-black bg-slate-100 p-2 rounded-md">{item.name}</h2>
                 </div>
                 <div class="card__back absolute top-0 bottom-0 md:text-sm  text-xs md:font-normal  right-0 left-0 p-8 bg-green-900 flex items-center justify-center rounded-xl">
                   <h2>{item.description}</h2>

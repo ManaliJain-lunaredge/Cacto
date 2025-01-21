@@ -9,10 +9,10 @@ const Missiom_vision = () => {
           <h3 className=" 2xl:text-4xl text-xl text-center font-bold text-green-700 2xl:mb-[2rem] mb-[0rem] mt-[1rem]">
             Our Mission & Vision
           </h3>
-          <div class="2xl:flex block ">
+          <div class="xl:flex  block ">
             <div className="2xl:w-[90%] w-full ">
               <div className="2xl:flex block gap-5 2xl:mt-[5rem] mt-[3rem]">
-                <div class="flex items-center justify-center 2xl:h-[4rem] 2xl:w-[14rem] w-[5rem] h-[4rem] mx-auto mt-3   rounded-md bg-indigo-500 text-white">
+                <div class="flex items-center justify-center 2xl:h-[4rem] 2xl:w-[14rem] w-[5rem] h-[4rem] mx-auto mt-3   rounded-md bg-green-900 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -44,7 +44,7 @@ const Missiom_vision = () => {
                 </div>
               </div>
               <div className="2xl:flex block gap-5 2xl:mt-[5rem] mt-[3rem]">
-                <div class="flex block  items-center justify-center 2xl:h-[4rem] 2xl:w-[9rem] w-[5rem] h-[4rem] mx-auto rounded-md bg-indigo-500 text-white">
+                <div class=" flex  items-center justify-center 2xl:h-[4rem] 2xl:w-[9rem] w-[5rem] h-[4rem] mx-auto rounded-md bg-green-900 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -82,7 +82,7 @@ const Missiom_vision = () => {
             <div>
               <img
                 src={image}
-                className="2xl:w-[60%] mt-[3rem] 2xl:mt-0 w-[100%] flex justify-center items-center mx-auto rounded-md"
+                className="2xl:w-[60%] xl:w-[75%] mt-[3rem]  2xl:mt-0 w-[100%]  flex justify-center items-center mx-auto rounded-md"
               />
             </div>
           </div>

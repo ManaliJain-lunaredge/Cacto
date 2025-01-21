@@ -82,7 +82,7 @@ const Header = () => {
         <div className="fixed top-0 left-0 w-[80%] h-full bg-green-100 z-50">
           <div className="flex justify-between items-center p-4  border-black">
             <img src={logo} className="w-32 h-24  object-contain" alt="Logo" />
-            <div className="flex items-center bg-green-900 hover:bg-[#1c0d5c] px-4 py-2 rounded-md">
+            {/* <div className="flex items-center bg-green-900 hover:bg-[#1c0d5c] px-4 py-2 rounded-md">
               <IoMdCall className="text-xl text-white" />{" "}
               <button
                 type="button"
@@ -90,7 +90,7 @@ const Header = () => {
               >
                 Contact Us
               </button>
-            </div>
+            </div> */}
           </div>
           <ul className="flex flex-col text-left items-start text-[#1C0D5C] font-medium text-[18px] px-4 py-6">
             {nav.map((item) => (

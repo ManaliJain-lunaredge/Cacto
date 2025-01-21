@@ -31,12 +31,12 @@ const Hero = () => {
           Cacto is a patented Nopal cactus – based sustainable material as an
           alternative to the animals and faux leather
         </h5>
-        <div>
-          <a href="#about" className=" text-white bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[8rem] h-[3rem] 2xl:h-[4rem] mt-[5rem] 2xl:text-2xl mb-[1rem] ">
+        <div className="mt-[3rem] 2xl:mt-0">
+          <a href="#about" className=" text-white inline p-2   bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[11rem] h-[3rem] 2xl:h-[4rem] mt-[rem] 2xl:text-2xl mb-[1rem] ">
             Discover More
           </a>
         </div>
-        <img src={mobile} className="w-[100%] mx-auto pb-0" />
+        <img src={mobile} className="w-[100%] mx-auto pb-0 mt-[2rem]" />
       </div>
     </div>
   );
