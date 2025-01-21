@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="absolute inset-0 bg-green-900 bg-opacity-95"></div>
 
         <div className="relative z-10 ">
-          2024@ Cacto Agrow Industries Private Limited
+          2025@ Cacto Agrow Industries Private Limited
         </div>
       </div>
     </div>
