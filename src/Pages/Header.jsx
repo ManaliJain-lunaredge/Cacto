@@ -11,8 +11,8 @@ const Header = () => {
   const nav = [
     { id: 1, name: "Home", href: "#home" },
     { id: 2, name: "About", href: "#about" },
-    { id: 3, name: "Products", href: "#product" },
-    { id: 4, name: "Catalouge", href: "#Catalouge" },
+    { id: 3, name: "Products", href: "#products" },
+    { id: 4, name: "Catalouge", href: "#catalouge" },
     { id: 5, name: "Sustainability Model", href: "#sustainabilitymodel" },
   ];
 
@@ -60,12 +60,12 @@ const Header = () => {
         {/* Contact Section */}
         <div className="flex items-center bg-green-600 hover:bg-green-900 hover:cursor-pointer px-[1%] py-[0.3%] rounded-md">
           <IoMdCall className="text-xl text-white" />
-          <button
-            type="button"
+          <a
+           href="#contact"
             className="text-white px-4 py-2 rounded-lg text-base font-medium transition"
           >
             Contact Us
-          </button>
+          </a>
         </div>
 
         {/* Hamburger Menu */}

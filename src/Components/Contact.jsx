@@ -1,8 +1,9 @@
 import React from "react";
 import contact from "../assets/Contact/contact.png";
+import { IoLogoWhatsapp } from "react-icons/io5";
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <section class="bg-blue-50 dark:bg-slate-800 " id="contact">
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div class="mb-4">
@@ -78,7 +79,21 @@ const Contact = () => {
                         Contact
                       </h3>
                       <p class="text-gray-600 dark:text-slate-400 2xl:text-md lg:text-xl">
-                       022-40135012/ 8976370407/ 8983626021
+                       022-40135012<br/> 8983626021
+                      </p>
+                     
+                    </div>
+                  </li>
+                  <li class="flex">
+                    <div class="flex h-10 w-10 items-center justify-center rounded bg-green-900 text-gray-50">
+                    <IoLogoWhatsapp className="text-2xl"/>
+                    </div>
+                    <div class="ml-4 mb-4">
+                      <h3 class="mb-2 2xl:text-xl lg:text-2xl font-medium leading-6 text-gray-900 dark:text-white">
+                      Whastapp
+                      </h3>
+                      <p class="text-gray-600 dark:text-slate-400 2xl:text-md lg:text-xl">
+                     <a href="https://wa.me/8976370407"> 8976370407</a>
                       </p>
                      
                     </div>
@@ -110,7 +125,7 @@ const Contact = () => {
                         Email 
                       </h3>
                       <p class="text-gray-600 dark:text-slate-400 2xl:text-md lg:text-xl">
-                        cactoagrow@gmail.com
+                     <a href="mailto:cactoagro@gmail.com"> cactoagro@gmail.com</a>
                       </p>
                     </div>
                   </li>

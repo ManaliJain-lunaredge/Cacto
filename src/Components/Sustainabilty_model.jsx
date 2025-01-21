@@ -11,7 +11,7 @@ import image9 from "../assets/Sb_Model/image9.png";
 
 const Sustainabilty_model = () => {
   return (
-    <div className="md:p-[1rem] lg:p-[5rem] xl:p-[7rem] pt-0 2xl:py-[2rem] pb-[1rem]" id="sustainability">
+    <div className="md:p-[1rem] lg:p-[5rem] xl:p-[7rem] pt-0 2xl:py-[2rem] pb-[1rem]" id="sustainabilitymodel">
        <h3 className=" text-2xl text-center font-bold text-green-700 mb-[2rem] md:text-4xl mt-[1rem] lg:mb-[5rem]">
           Sustainability Model
         </h3>
