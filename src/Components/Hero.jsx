@@ -32,7 +32,7 @@ const Hero = () => {
           alternative to the animals and faux leather
         </h5>
         <div>
-          <a href="#home" className=" text-white bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[8rem] h-[3rem] 2xl:h-[4rem] mt-[5rem] 2xl:text-2xl mb-[1rem] ">
+          <a href="#about" className=" text-white bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[8rem] h-[3rem] 2xl:h-[4rem] mt-[5rem] 2xl:text-2xl mb-[1rem] ">
             Discover More
           </a>
         </div>
