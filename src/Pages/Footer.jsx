@@ -55,7 +55,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#sustainability"
+                href="#sustainabilitymodel"
                 className="cursor-pointer hover:text-green-900"
               >
                 Sustainability Model

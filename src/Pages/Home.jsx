@@ -13,7 +13,7 @@ import Catlogue from "../Components/Catlogue";
 
 const Home = () => {
   return (
-    <div>
+    <div id="home">
       <Header />
       <Hero />
       <Aboutus />
