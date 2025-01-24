@@ -10,21 +10,25 @@ import Contact from "../Components/Contact";
 import Sustainabilty_model from "../Components/Sustainabilty_model";
 import Leadther from "../Components/Leadther";
 import Catlogue from "../Components/Catlogue";
+import Mainproducts from "../Components/Mainproducts";
+import Services from "../Components/Services";
 
 const Home = () => {
   return (
     <div id="home">
-      <Header />
+     
       <Hero />
       <Aboutus />
       <Cacto />
       <Missiom_vision />
       <Leadther/>
       <Sustainabilty_model/>
-      <Catlogue/>
+      {/* <Catlogue/> */}
+      <Mainproducts/>
+      <Services/>
       <Products />
       <Contact />
-      <Footer />
+     
     </div>
   );
 };

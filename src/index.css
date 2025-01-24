@@ -12,3 +12,8 @@
 .card__front,
 .card__back { backface-visibility: hidden;}
 .card__back{ transform: rotateY(.5turn);}
+
+
+.contact:hover{
+background-color:black !important;
+}

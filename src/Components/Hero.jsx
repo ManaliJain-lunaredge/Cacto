@@ -9,17 +9,20 @@ const Hero = () => {
         style={{ backgroundImage: `url(${image})` }}
       >
         <div>
-          <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-[#3A6726] from-[0%] to-[#69B745] to-[38%] md:text-3xl font-semibold 2xl:text-6xl lg:text-4xl xl:text-5xl text-2xl mt-[7rem] 2xl:mt-[4rem] leading-tight font-serif 2xl:w-[50%] w-[100%]">
+          <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-[#3A6726] from-[0%] to-[#69B745] to-[38%] md:text-3xl font-semibold 2xl:text-6xl lg:text-2xl xl:text-4xl text-2xl mt-[7rem] 2xl:mt-[4rem] leading-tight font-serif 2xl:w-[50%] w-[100%]">
             Vegan Cactus Alternative to Animal Leather
           </h3>
-          <h5 className="2xl:w-[30%] mt-[3rem] 2xl:text-xl lg:text-3xl md:text-2xl">
+          <h5 className="2xl:w-[30%] mt-[3rem] 2xl:text-xl lg:text-md lg:w-[60%] md:text-2xl">
             Cacto is a patented Nopal cactus – based sustainable material as an
             alternative to the animals and faux leather
           </h5>
           <div>
-            <button className=" text-white bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[8rem] h-[3rem] 2xl:h-[4rem] mt-[5rem] 2xl:text-2xl mb-[1rem] ">
-              Discover More
-            </button>
+          <a href="/contact" target="_blank" rel="noopener noreferrer">
+  <button className="text-white bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:from-emerald-500 hover:to-emerald-600 hover:text-black rounded-md cursor-pointer 2xl:w-[15rem] xl:h-[4rem] xl:w-[10rem] w-[8rem] h-[3rem] 2xl:h-[4rem] mt-[5rem] 2xl:text-2xl mb-[1rem]">
+    Discover More
+  </button>
+</a>
+
           </div>
         </div>
       </div>
@@ -27,12 +30,15 @@ const Hero = () => {
         <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-[#3A6726] from-[0%] to-[#69B745] to-[38%] md:text-3xl font-semibold 2xl:text-6xl lg:text-4xl xl:text-5xl text-2xl mt-[1rem] 2xl:mt-[4rem] leading-tight font-serif 2xl:w-[50%] w-[100%]">
           Vegan Cactus Alternative to Animal Leather
         </h3>
-        <h5 className="2xl:w-[30%] mt-[3rem] 2xl:text-xl lg:text-3xl md:text-2xl">
+        <h5 className="2xl:w-[30%] mt-[3rem] 2xl:text-xl lg:text-3xl md:text-2xl ">
           Cacto is a patented Nopal cactus – based sustainable material as an
           alternative to the animals and faux leather
         </h5>
         <div className="mt-[3rem] 2xl:mt-0">
-          <a href="#about" className=" text-white inline p-2   bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[11rem] h-[3rem] 2xl:h-[4rem] mt-[rem] 2xl:text-2xl mb-[1rem] ">
+          <a
+            href="/contact"
+            className=" text-white flex justify-center items-center p-2 text-xl  bg-gradient-to-l from-[#3A6726] to-[#69B745] hover:bg-black rounded-md cursor-pointer 2xl:w-[15rem]  w-[10rem] h-[3rem] 2xl:h-[4rem] mt-[rem] 2xl:text-2xl mb-[1rem] "
+          >
             Discover More
           </a>
         </div>

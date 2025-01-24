@@ -2,31 +2,32 @@ import React from "react";
 import { FaPinterest } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter,FaLinkedin } from "react-icons/fa";
 import footer from "../assets/Footer/footer.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <div className="bg-black p-7 w-full mx-auto">
         <div className="flex justify-center items-center space-x-4 p-7">
-          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3">
-            <a href="">
-              <FaPinterest />
+          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3 hover:bg-emerald-500 hover:cursor-pointer">
+            <a href="https://www.linkedin.com/company/the-cacto/">
+              <FaLinkedin />
             </a>
           </div>
-          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3">
+          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3 hover:bg-emerald-500 hover:cursor-pointer">
             <a href="">
             
               <FaFacebookF />
             </a>
           </div>
-          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3">
-            <a href="">
+          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3 hover:bg-emerald-500 hover:cursor-pointer">
+            <a href="https://www.instagram.com/cacto.agrow2k23?utm_source=qr&igsh=MThwbXNxNnJrNHNwZg==">
               <FaInstagram />
             </a>
           </div>
-          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3">
+          <div className="w-10 h-10 rounded-full bg-green-900 text-white p-3 hover:bg-emerald-500 hover:cursor-pointer">
             <a href="">
             
               <FaTwitter />
@@ -34,33 +35,51 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <ul className="md:flex block justify-center items-center mt-2 gap-4 text-white font-semibold">
+          <ul className="md:flex inline-block justify-center md:text-sm items-center mt-2 gap-5 text-white font-semibold">
             <li>
-              <a href="#home" className="cursor-pointer hover:text-green-900">
+              <Link to="/" className="cursor-pointer hover:text-green-600 2xl:text-xl">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#about" className="cursor-pointer hover:text-green-900">
+              <Link to="/about" className="cursor-pointer hover:text-green-600 2xl:text-xl">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#products"
-                className="cursor-pointer hover:text-green-900"
+              <Link
+                to="/products"
+                className="cursor-pointer hover:text-green-600 2xl:text-xl"
               >
                 Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#sustainabilitymodel"
-                className="cursor-pointer hover:text-green-900"
+              <Link
+                to="/catalouge"
+                className="cursor-pointer hover:text-green-600 2xl:text-xl"
+              >
+               Catalouge
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services"
+                className="cursor-pointer hover:text-green-600 2xl:text-xl"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/sustainabilitymodel"
+                className="cursor-pointer hover:text-green-600 2xl:text-xl"
               >
                 Sustainability Model
-              </a>
+              </Link>
             </li>
+           
+            
           </ul>
         </div>
       </div>

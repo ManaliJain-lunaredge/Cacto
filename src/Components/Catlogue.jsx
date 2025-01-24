@@ -6,7 +6,7 @@ const Catlogue = () => {
          <h3 className=" text-4xl text-center font-bold text-green-700 mb-[4rem] mt-[1rem]">
           Our Catalouge
         </h3>
-        <img src={image} className='w-[1200px] md:h-[600px] h-auto  mx-auto flex justify-center items-center'/>
+        <img src={image} className='w-[1200px] md:h-[600px] h-auto  mx-auto flex justify-center items-center pb-[2rem]'/>
     </div>
   )
 }
